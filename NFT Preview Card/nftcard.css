@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+    max-width: 1440px;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 20px;
+}
+.container img{
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.container h2{
+    font-size: 1.5re;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    margin-bottom: 20px;
+}
+.container .paragraph{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons .ethereum, .icons .time{
+    display: flex;
+}
+.icons .ethereum p{
+    padding-left: 6px;
+    font-size: 1.1rem;
+    color: hsl(178, 100%, 50%);
+}
+.icons .time p{
+    font-size: 1.1rem;
+    padding-left: 6px;
+    color: hsl(215, 51%, 70%);
+}
+.icons .icon1{
+    width: 15px
+}
+.icons .icon2{
+    width: 25px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(156, 138, 138, 0.322);
+    margin-top: 10px;
+}
+.footer .profile{
+    margin-top: 15px;
+    margin-right: 1.3rem;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.footer p{
+    font-size: 1.1rem;
+    color: hsl(215, 51%, 70%);
+}
+.footer span{
+    color:  hsl(0, 0%, 100%);
+}
